@@ -45,7 +45,18 @@
 }
 
 .pictures {
-    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.pictures_scroll {
+    max-width: 23rem;
+    max-height: 23rem;
+    overflow: scroll;   
+}
+
+.pictures_scroll::-webkit-scrollbar {
+    display: none;
 }
 
 .footer {
