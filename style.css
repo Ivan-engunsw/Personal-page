@@ -36,6 +36,15 @@
     gap: 1.5rem;
 }
 
+#profile img {
+    transition: width 2s, height 2s;
+}
+
+#profile img:hover {
+    height: 25rem;
+    width: 25rem;;
+}
+
 #description {
     text-wrap: wrap;
     max-width: 20rem;
@@ -52,7 +61,7 @@
 .pictures_scroll {
     max-width: 23rem;
     max-height: 23rem;
-    overflow: scroll;   
+    overflow: scroll;
 }
 
 .pictures_scroll::-webkit-scrollbar {
